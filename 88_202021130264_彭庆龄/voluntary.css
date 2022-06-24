@@ -1,0 +1,103 @@
+div.tablecontainer_v{
+    background-color:rgba(240,248,255,0.7);
+    display:table;
+    border-spacing: 10px;
+    color:white;
+    width:1400px;
+}
+div.table-row_v{
+    display:table-row;
+}
+/*h1整体框架*/
+h1{
+    text-align: center;
+    background-color:  rgb(48, 99, 154);
+    border-radius: 20px;
+    border:10px outset white;
+    width:200px;
+    padding:10px;
+}
+/*INPUT*/
+section#input{
+    display:table-cell;
+    width:320px;
+    ;
+    
+}
+section#input table{
+    background-color:  rgb(48, 99, 154);
+    border-spacing:10px;
+    height:200px;
+    width:300px;
+   
+}
+section#input h1{/*300-200=100*/
+    margin-left:50px;
+    margin-right:50px;
+}
+section#input table th{
+    text-align: right; 
+}
+section#input table td{
+    text-align: left;
+}
+/*activity*/
+section#activity{
+    display:table-cell;
+    width:640px;
+}
+div.photo img{
+    border:10px solid rgb(48, 99, 154);
+    border-radius: 10px;
+}
+section#activity div.text{
+    background-image: linear-gradient(rgb(48, 99, 150),rgb(188, 222, 252));/*默认是从上到下*/
+    padding:20px;
+    width:540px;
+    margin:10px 40px 0px auto;
+    border-top:20px groove rgb(48, 99, 154);
+
+}
+section#activity h1{
+    margin:auto;
+}
+/*work*/
+section#work{
+    display:table-cell;
+}
+section#work h1{
+    margin:auto;
+}
+section#work div.text{
+    background-image: linear-gradient(rgb(48, 99, 150),rgb(188, 222, 252));/*默认是从上到下*/
+    padding:20px;
+    width:240px;
+    margin:auto;
+}
+h3{
+    line-height: 0.5em;
+    text-shadow:5px 5px rgb(48, 99, 150);/*文字阴影*/
+}
+div.photo1 img{
+    border:10px solid rgb(48, 99, 154);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+form textarea{
+    width:240px;
+    height:300px;
+}
+div#textarea{
+    padding:10px 40px 40px 40px;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    color:rgb(48, 99, 154);
+    width:240px;
+    padding:10px;
+    margin:10px auto auto auto;
+    text-align: center;
+    border-radius: 20px;
+    border:5px inset rgb(48, 99, 154);
+}

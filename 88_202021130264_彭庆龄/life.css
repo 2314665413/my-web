@@ -1,0 +1,41 @@
+div.aside1{
+    position:fixed;
+    margin-top: 200px;
+}
+div.table{
+    display:table;
+    background-color: rgba(240,248,255,0.7);
+    width:950px;
+    margin:auto auto auto auto;
+    border-spacing:20px;
+}
+div.tablerow{
+    display:table-row;
+}
+section#video{
+    display:table-cell;
+    width:600px;
+    background-color: white;
+    padding:10px;
+}
+section#choosevideo{
+    display:table-cell;
+    vertical-align: top;
+}
+section#choosevideo ul{
+    list-style-type: none;
+    display:inline;  
+}
+section#choosevideo ul li{
+    background-color: rgb(33, 77, 123);
+    padding:70px 10px 70px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+section#choosevideo ul li.selected{
+    border:rgb(133, 177, 223) solid 10px;
+}
+video{
+    display:block;
+    margin:auto;
+}
